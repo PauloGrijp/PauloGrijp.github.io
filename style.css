@@ -1,5 +1,6 @@
 body{
   background-color: #E0FBFC;
+  margin: auto 2% ;
 }
 
 #nome{
@@ -35,7 +36,9 @@ body{
 }
 
 .foto {
-  float: left;  
+  float: left; 
+  background-color: #EE6C4D;
+  padding: 20px; 
 }
 
 .sobre {
@@ -44,3 +47,14 @@ body{
   margin-left: 50px;
 }
 
+.skills{
+  margin: 20px;
+}
+
+.descricao{
+  margin: 20px;
+}
+
+.skills li:nth-of-type(2n - 1){
+  font-style: italic;
+}
