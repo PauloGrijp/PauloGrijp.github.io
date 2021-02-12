@@ -1,0 +1,31 @@
+body{
+  background-color: #E0FBFC;
+}
+
+#nome{
+  font-family: 'Montserrat', sans-serif;
+}       
+
+.font-descr {
+  font-family: 'Roboto',sans-serif;
+}    
+
+.color-destaque{
+  color: #EE6C4D;
+}
+
+.tamP{
+  font-size: 12px;
+}
+
+.tamM{
+  font-size: 15px;
+}
+
+.tamG{
+  font-size: 19px;
+}
+
+.tamGG{
+  font-size: 24px;
+}
