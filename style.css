@@ -30,9 +30,12 @@ body{
   font-size: 24px;
 }
 
+.nome {
+  text-align: center;
+}
+
 .foto {
-  float: left; 
- 
+  float: left;  
 }
 
 .sobre {
