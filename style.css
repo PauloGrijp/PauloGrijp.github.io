@@ -26,6 +26,12 @@ body {
   font-size: 1.5em;
   color: #d8e3e7;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  color: #51c4d3;
+  font-size: 1.6em;
 }
 
 .nav-bar {
@@ -44,6 +50,12 @@ body {
 .nav-bar .menu .pages a{
   color: #d8e3e7;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-bar .menu .pages a:hover {
+  color: #51c4d3;
+  font-size: 1.1em;
 }
 
 
