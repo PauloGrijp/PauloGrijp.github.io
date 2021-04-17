@@ -1,6 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Mono&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  background-color: #081a33;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #d8e3e7;
+  text-decoration: none;
+}
+
+.nav-bar {
+  width: 500px;
+}
+
+.nav-bar .menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar .menu .pages {
+  list-style: none;
+}
+
+.nav-bar .menu .pages a{
+  color: #d8e3e7;
+  text-decoration: none;
+}
+
 
