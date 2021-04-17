@@ -83,7 +83,8 @@ body {
 .call-name {
   margin-bottom: 20px;
   font-size: 1.3em;
-  color: #51c4d3;  
+  color: #51c4d3;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .name {
