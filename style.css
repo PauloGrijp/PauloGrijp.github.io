@@ -68,6 +68,7 @@ body {
   max-width: 1920px;
   height: 100vh;
   padding: 0 3%;
+  position: relative;
 }
 
 /* ***** HOME ***** */
@@ -107,6 +108,44 @@ body {
   line-height: 1.5;
   text-align: justify;
 }
+
+.left-bottom {
+  background-color: #d8e3e7;
+  width: 2px;
+  height: 100px;
+  position: absolute;
+  left: 30px;
+  bottom: 120px;
+}
+
+.bottom-left {
+  background-color: #d8e3e7;
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  left: 30px;
+  bottom: 120px;
+}
+
+.right-bottom {
+  background-color: #d8e3e7;
+  width: 2px;
+  height: 100px;
+  position: absolute;
+  right: 30px;
+  bottom: 120px;
+}
+
+.bottom-right {
+  background-color: #d8e3e7;
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  right: 30px;
+  bottom: 120px;
+}
+
+
 
 
 
