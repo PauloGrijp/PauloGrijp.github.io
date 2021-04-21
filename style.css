@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 0;
 }
 
 .logo {
@@ -79,7 +80,8 @@ body {
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;  
+  opacity: 0;
 }
 
 .call-name {
@@ -143,6 +145,10 @@ body {
   position: absolute;
   right: 30px;
   bottom: 120px;
+}
+
+.opacity {
+  opacity: 0;
 }
 
 
